@@ -6,7 +6,7 @@ const Testimonials = () => {
     const el = useRef(null);
     useEffect(()=>{
         const options = {
-            strings: ['heelo', 'abc'],
+            strings: [' Love Us!', ' Trust Us!'],
             typeSpeed: 40,
             backSpeed: 20,
             loop: true
@@ -25,8 +25,8 @@ const Testimonials = () => {
   return (
     <div className="mt-20 tracking-wide">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
-      Why Our Clients
-      <span className="bg-gradient-to-r from-blue-500 to-red-400 text-transparent bg-clip-text" ref={el}>
+      Why Our Clients {" "} 
+      <span className=" bg-gradient-to-r from-blue-500 to-red-400 text-transparent bg-clip-text" ref={el}>
         </span>
         </h2>
         <div className="flex flex-wrap justify-center">
